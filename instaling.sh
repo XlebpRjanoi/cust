@@ -1,4 +1,4 @@
-print('\033[36mНе очкуй))\033[0m')
+echo Не очкуй
 cd
 pkg install zsh &> /dev/null
 pkg install wget &> /dev/null
