@@ -1,6 +1,6 @@
 cd
 pkg install -y zsh
-chsh -s /bin/zsh
+chsh -sy /bin/zsh
 termux-reload-settings
 echo $SHELL
 
@@ -16,3 +16,4 @@ ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 rm $HOME/.zshrc
 mv $HOME/cust/config $HOME/.zshrc
 termux-reload-settings
+rm -rf $HOME/cust
